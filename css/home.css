@@ -1,0 +1,74 @@
+/*首页 home */
+body{
+    margin:0;
+    font-size: 11pt;
+    min-width: 1000px;
+    line-height: 1.75em;
+    /*background-color:#fff;*/
+    background-image: url('../images/bg2.png');
+    background-repeat:repeat; 
+    font-family:  sans-serif;
+    font-weight: 400;
+    color: #565656;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    list-style: none;
+}
+
+.content{
+    padding: 3em 4em;
+}
+.welcome header h2{
+    color: #1b252a;
+    font-weight: 800;
+    font-size: 2.8em;
+}
+.byline,.stats li a{
+    color: #999;
+}
+.info{
+    float: left;
+    height: 25px;
+    margin: 2em 0;
+}
+.date{
+    float: left;
+}
+.stats{
+    display: inline-block;
+    float: left;
+    border-left: 1px solid #ddd;
+    margin-left: 1em;
+    padding-left:0.8em;
+}
+.stats li{
+    float: left;
+    margin:0em 0.8em; 
+}
+.image
+{
+    display: inline-block;
+}
+    
+.image img
+{
+    display: block;
+    width: 100%;
+}
+
+.image-full
+{
+    display: block;
+    width: 100%;
+    margin: 0 0 2em 0;
+}
+.current_page{
+    display: block;
+}
+

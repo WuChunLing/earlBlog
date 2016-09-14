@@ -1,0 +1,64 @@
+body{
+    margin:0;
+    font-size: 11pt;
+    min-width: 1000px;
+    line-height: 1.75em;
+    /*background-color:#fff;*/
+    background-image: url('../images/bg2.png');
+    background-repeat:repeat; 
+    font-family:  sans-serif;
+    font-weight: 400;
+    color: #565656;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    list-style: none;
+}
+.content{
+    padding: 3em 4em;
+}
+.about_us h2{
+	font-weight: 800;
+}
+.history,.intro_person{
+	margin: 1.0em 0em;
+	border-top: 1px solid rgb(148,148,148);
+	padding: 1.5em 0.5em;
+}
+.intro_person{
+	width: 100%;
+}
+.intro_person header{
+	font-size: 1.5em;
+	font-weight: 600;
+	font-family: '黑体';
+	border-bottom: 1px solid rgb(148,148,148);
+	margin-top: 0.1em;
+	padding: 8px;
+	float: left;
+	width: 100%;
+}
+.person_all{
+	margin-bottom:4em;
+	margin-top: 1em;
+	width: 100%;
+	padding: 1em;
+}
+.person_one{
+	width: 42%;
+	float: left;
+	padding: 2em;
+} 
+.person_one img{
+	width: 30%;
+	float: left;
+	margin-right: 1em;
+}
+.person_one span{
+	margin-right: 0.5em;
+}

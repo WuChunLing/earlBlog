@@ -1,0 +1,159 @@
+ body{
+	margin:0;
+	font-size: 11pt;
+	min-width: 1000px;
+	line-height: 1.75em;
+    /*background-color:#fff;*/
+    background-image: url('../images/bg2.png');
+    background-repeat:repeat; 
+    font-family:  sans-serif;
+    font-weight: 400;
+    color: #565656;
+}
+*{
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    list-style: none;
+}
+.fixnav{
+    position: absolute;
+    bottom: 0;
+}
+/*导航侧边栏 nav */
+
+#nav
+{
+    z-index: 999;
+    float: left;
+    width:16em;
+    padding: 3em 0em;
+    background: rgb(42,42,42);
+    text-align: center;
+    color: rgb(148,148,148);
+    position: fixed;
+    /*height: 1480px;*/
+}
+/* 图标 logo */
+#logo
+{
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+#logo h1
+{
+    display: block;
+}
+
+#logo a
+{
+    text-decoration: none;
+    color: #FFF;
+}
+
+#logo span
+{
+    padding-right: 0.5em;
+    text-transform: uppercase;
+    font-size: 0.90em;
+    color: rgba(255,255,255,0.3);
+}
+
+#logo span a
+{
+    color: rgba(255,255,255,0.5);
+}
+
+#logo img
+{
+    display: inline-block;
+    margin-bottom: 1em;
+    border-radius: 50%;
+}
+
+/* 菜单列表 menu */
+#menu li
+{
+    border-top: 1.5px solid rgba(255,255,255,0.08);
+}
+#menu li:last-child
+{
+    border-bottom: 1.5px solid rgba(255,255,255,0.08);
+}
+#menu li a, #menu li span
+{
+    display: block;
+    padding: 1.8em 1.5em;
+    text-align: center;
+    text-decoration:  none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgba(255,255,255,0.5);
+}
+
+#menu .current_page_item a
+{
+    background: #272E39;
+    color: rgba(255,255,255,1);
+    border-right: 8px solid #2980b9;
+}
+
+
+#nav section{
+    margin: 2em 0 0 0;
+    font-size: 0.9em;
+    position: relative;
+}
+
+/*标语 text */
+#text .inner
+{
+    margin:6em auto; 
+    width: 85%;
+    position: relative;
+    background-color: #272E39;
+    background-color: rgba(0,0,0,0.15);
+    border-radius: 0.4em;
+    padding: 1.25em;
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.05), inset 0 0 0.25em 0 rgba(0,0,0,0.25);
+}   
+/*更多 more */
+#more{
+    position: relative;
+    margin:3em 5em;
+    padding: 1em;
+    text-align: left;
+    color: rgb(148,148,148);
+}
+#more h2{
+    color: rgb(148,148,148);
+    font-size: 1.5em;
+}
+#more a{
+    color: rgb(148,148,148);
+}
+/* 版权 copyright*/
+#copyright {
+    margin: 8em 0 0 0;
+    text-align: center;
+}
+#copyright p {
+    font-size: 0.8em;
+    line-height: 2em;
+    opacity: 0.75;
+}
+
+/*内联框架*/
+#iframe{
+    padding-left: 16em;
+    width:100%;
+/*    height:auto;
+*/  position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>伯爵科技</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="伯爵技术博客" />
+		<meta name="keywords" content="earl,伯爵,技术,博客" />
+		<script src="js/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		
+	</head>
+	<body>
+
+		<!-- 导航 start -->
+		<div id="nav">
+
+			<!-- 图标 -->
+			<div id="logo">
+				<img src="images/logo.jpg" alt="伯爵科技logo" width="180" />
+				<h1><a href="#">伯爵科技</a></h1>
+				<span>责任凝聚力量，技术创造未来</span>
+			</div>
+
+			<!-- 菜单列表 -->
+			<div id="menu">
+				<ul>
+					<li class="menu_li current_page_item"><a href="home.html" target="iframe">首页</a></li>
+					<li class="menu_li"><a href="article.html" target="iframe">文章列表</a></li>
+					<li class="menu_li"><a href="aboutUs.html" target="iframe">关于我们</a></li>
+					<li class="menu_li"><a href="recruitNew.html" target="iframe">招新信息</a></li>
+				</ul>
+			</div>
+					
+			<!-- Text 标语-->
+			<section id="text">
+				<div class="inner">
+					<p>
+						<strong>伯爵:</strong> 永远青春，永远热泪盈眶！ <a href="#">以梦为马,不负韶华!</a>
+					</p>
+				</div>
+			</section>
+					
+			<!-- Recent Posts 更多信息-->
+			<section id="more">
+				<header>
+					<h2>更多</h2>
+				</header>
+				<ul>
+					<li><a href="#">王家涛的个人博客</a></li>
+					<li><a href="#">苏宏伟的个人博客</a></li>
+					<li><a href="#">黄详谦的个人博客</a></li>
+					<li><a href="#">江锦泰的个人博客</a></li>
+					<li><a href="#">宋文光的个人博客</a></li>
+					<li><a href="#">陈立琼的个人博客</a></li>
+					
+				</ul>
+			</section>	
+			<!-- Copyright 版权所有-->
+			<div id="copyright">
+				<p>
+					&copy; 2016 伯爵科技.<br />
+				</p>
+			</div>
+		</div>
+		<!-- 导航 end -->
+
+		<!-- 内联框架iframe  -->
+		<iframe name="iframe" id="iframe" src="home.html" frameborder="0" scrolling="no"
+		onLoad="iFrameHeight()" >
+			
+		</iframe>
+
+		<script type="text/javascript" language="javascript">
+		function iFrameHeight() {
+		    var ifm= document.getElementById("iframe");
+		    var subWeb = document.frames ? document.frames["iframe"].document : ifm.contentDocument;
+		    if(ifm != null && subWeb != null) {
+		        ifm.height = subWeb.body.scrollHeight;
+		    }
+		}
+		</script>
+	</body>
+	<script src="js/index.js"></script>
+	
+</html>

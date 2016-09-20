@@ -62,7 +62,7 @@ $(document).ready(function(){
 				for(var m=0;m<tip[i].length;m++){
 					tipStr +=  '<span class="tip">'+tip[i][m]+'</span>';
 				}
-	       		str += 	'<div class="post"><h3 class="title"><a href="#">'+article[i][1] +'</a></h3><p class="meta"><span class="date">'+article[i][7]+'&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="glyphicon glyphicon-eye-open">&nbsp;'+article[i][4]+'&nbsp;&nbsp;</span><span class="posted">作者 <a href="#">'+article[i][3]+'</a></span></p><div class="entry"><p>'+article[i][5]+'</p><p class="links"><a href="#">阅读全文</a>'+tipStr+'</p></div></div>';
+	       		str += 	'<div class="post"><h3 class="title"><a href="./showArticle.html">'+article[i][1] +'</a></h3><p class="meta"><span class="date">'+article[i][7]+'&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="glyphicon glyphicon-eye-open">&nbsp;'+article[i][4]+'&nbsp;&nbsp;</span><span class="posted">作者 <a href="./showArticle.html">'+article[i][3]+'</a></span></p><div class="entry"><p>'+article[i][5]+'</p><p class="links"><a href="./showArticle.html">阅读全文</a>'+tipStr+'</p></div></div>';
 			}
 			$("#post_view").empty();
 			$("#post_view").append(str);
@@ -224,7 +224,7 @@ function get_view(index){
 				for(var j=0;j<tip[i].length;j++){
 					tipStr +=  '<span class="tip">'+tip[i][j]+'</span>';
 				}
-       			str += 	'<div class="post"><h3 class="title"><a href="#">'+article[i][1] +'</a></h3><p class="meta"><span class="date">'+article[i][7]+'&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="glyphicon glyphicon-eye-open">&nbsp;'+article[i][4]+'&nbsp;&nbsp;</span><span class="posted">作者 <a href="#">'+article[i][3]+'</a></span></p><div class="entry"><p>'+article[i][5]+'</p><p class="links"><a href="#">阅读全文</a>'+tipStr+'</p></div></div>';
+       			str += 	'<div class="post"><h3 class="title"><a href="./showArticle.html">'+article[i][1] +'</a></h3><p class="meta"><span class="date">'+article[i][7]+'&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="glyphicon glyphicon-eye-open">&nbsp;'+article[i][4]+'&nbsp;&nbsp;</span><span class="posted">作者 <a href="./showArticle.html">'+article[i][3]+'</a></span></p><div class="entry"><p>'+article[i][5]+'</p><p class="links"><a href="./showArticle.html">阅读全文</a>'+tipStr+'</p></div></div>';
 			}
 			// 列表视图
 			else{
@@ -242,7 +242,7 @@ function get_view(index){
 				for(var j=0;j<tip[i].length;j++){
 					tipStr +=  '<span class="tip">'+tip[i][j]+'</span>';
 				}
-       			str += 	'<div class="post"><h3 class="title"><a href="#">'+article[i][1] +'</a></h3><p class="meta"><span class="date">'+article[i][7]+'&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="glyphicon glyphicon-eye-open">&nbsp;'+article[i][4]+'&nbsp;&nbsp;</span><span class="posted">作者 <a href="#">'+article[i][3]+'</a></span></p><div class="entry"><p>'+article[i][5]+'</p><p class="links"><a href="#">阅读全文</a>'+tipStr+'</p></div></div>';
+       			str += 	'<div class="post"><h3 class="title"><a href="./showArticle.html">'+article[i][1] +'</a></h3><p class="meta"><span class="date">'+article[i][7]+'&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="glyphicon glyphicon-eye-open">&nbsp;'+article[i][4]+'&nbsp;&nbsp;</span><span class="posted">作者 <a href="./showArticle.html">'+article[i][3]+'</a></span></p><div class="entry"><p>'+article[i][5]+'</p><p class="links"><a href="./showArticle.html">阅读全文</a>'+tipStr+'</p></div></div>';
 			}
 			// 列表视图
 			else{
@@ -266,7 +266,7 @@ function last_page(page,index){
 			for(var m=0;m<tip[i].length;m++){
 				tipStr +=  '<span class="tip">'+tip[i][m]+'</span>';
 			}
-       		str += 	'<div class="post"><h3 class="title"><a href="#">'+article[i][1] +'</a></h3><p class="meta"><span class="date">'+article[i][7]+'&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="glyphicon glyphicon-eye-open">&nbsp;'+article[i][4]+'&nbsp;&nbsp;</span><span class="posted">作者 <a href="#">'+article[i][3]+'</a></span></p><div class="entry"><p>'+article[i][5]+'</p><p class="links"><a href="#">阅读全文</a>'+tipStr+'</p></div></div>';
+       		str += 	'<div class="post"><h3 class="title"><a href="./showArticle.html">'+article[i][1] +'</a></h3><p class="meta"><span class="date">'+article[i][7]+'&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="glyphicon glyphicon-eye-open">&nbsp;'+article[i][4]+'&nbsp;&nbsp;</span><span class="posted">作者 <a href="./showArticle.html">'+article[i][3]+'</a></span></p><div class="entry"><p>'+article[i][5]+'</p><p class="links"><a href="./showArticle.html">阅读全文</a>'+tipStr+'</p></div></div>';
 		}
 		$("#post_view").append(str);
 	}

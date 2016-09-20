@@ -7,10 +7,16 @@ jQuery(document).ready(function($) {
 	$(".day").text(day+"日");
 	$(".year").text(","+year);
 
-	// 获取本网站的访问量
-	// var url = '' ;
-	// $.get(url,function(data){
+
+	// // 获取本网站的访问量
+	// 	$.get(url,function(data){
 	// 	$(".glyphicon-eye-open").text(data);
 	// });
 	
+	// if(localStorage.load){
+	// 	localStorage.load = localStorage.load + sessionStorage.load ;
+	// }
+	// else{ 
+	// 	localStorage.load = 1;
+	// }
 });

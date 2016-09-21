@@ -2,14 +2,15 @@
 body{
     margin:0;
     font-size: 11pt;
-    min-width: 1000px;
+    width:100%;
     line-height: 1.75em;
     /*background-color:#fff;*/
-    background-image: url('../images/bg2.png');
+    /*background-image: url('../images/bg2.png');*/
     background-repeat:repeat; 
     font-family:  sans-serif;
     font-weight: 400;
     color: #565656;
+    height: 900px;
 }
 *{
     margin: 0;
@@ -22,12 +23,12 @@ body{
 }
 
 .content{
-    padding: 3em 4em;
+    padding: 1em 4em;
 }
 .welcome header h2{
     color: #1b252a;
-    font-weight: 800;
-    font-size: 2.8em;
+    font-weight: 550;
+    font-size: 2.5em;
 }
 .byline,.stats li a{
     color: #999;
@@ -59,7 +60,7 @@ body{
 .image img
 {
     display: block;
-    width: 100%;
+    width:100%;
 }
 
 .image-full
@@ -71,4 +72,6 @@ body{
 .current_page{
     display: block;
 }
-
+p{
+    width:100%;
+}

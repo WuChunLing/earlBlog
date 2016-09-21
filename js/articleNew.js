@@ -92,8 +92,8 @@ jQuery(document).ready(function($) {
 		var i = this.id;
 		sessionStorage.title = listView[i][1];
 		sessionStorage.author = listView[i][3];
-		sessionStorage.time = listView[i][2];
-		sessionStorage.main = listView[i][7];
+		sessionStorage.time = listView[i][7];
+		sessionStorage.main = listView[i][2];
 		// window.location.href='./showArticle.html';
 	});
 

@@ -1,10 +1,10 @@
  body{
 	margin:0;
 	font-size: 11pt;
-	min-width: 1000px;
+	min-width:100%;
 	line-height: 1.75em;
     /*background-color:#fff;*/
-    background-image: url('../images/bg2.png');
+    /*background-image: url('../images/bg2.png');*/
     background-repeat:repeat; 
     font-family:  sans-serif;
     font-weight: 400;
@@ -29,7 +29,8 @@
 {
     z-index: 999;
     float: left;
-    width:16em;
+    width:15em;
+    height: 100%;
     padding: 3em 0em;
     background: rgb(42,42,42);
     text-align: center;
@@ -41,11 +42,12 @@
 #logo
 {
     text-align: center;
-    margin-bottom: 4em;
+    margin-bottom: 3em;
 }
 
 #logo h1
 {
+    font-size: 1.8em;
     display: block;
 }
 
@@ -87,11 +89,11 @@
 #menu li a, #menu li span
 {
     display: block;
-    padding: 1.8em 1.5em;
+    padding: 1.4em 1.1em;
     text-align: center;
     text-decoration:  none;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 580;
     color: rgba(255,255,255,0.5);
 }
 
@@ -105,21 +107,21 @@
 
 #nav section{
     margin: 2em 0 0 0;
-    font-size: 0.9em;
+    font-size: 0.65em;
     position: relative;
 }
 
 /*标语 text */
 #text .inner
 {
-    margin:6em auto; 
+    margin:0.5em auto; 
     width: 85%;
     position: relative;
     background-color: #272E39;
     background-color: rgba(0,0,0,0.15);
     border-radius: 0.4em;
-    padding: 1.25em;
-    box-shadow: 0 0 0 1px rgba(255,255,255,0.05), inset 0 0 0.25em 0 rgba(0,0,0,0.25);
+    padding: 1.0em;
+    box-shadow: 0 0 0 0px rgba(255,255,255,0.05), inset 0 0 0.25em 0 rgba(0,0,0,0.25);
 }   
 /*更多 more */
 #more{
@@ -143,13 +145,13 @@
 }
 #copyright p {
     font-size: 0.8em;
-    line-height: 2em;
+    line-height:2em;
     opacity: 0.75;
 }
 
 /*内联框架*/
 #iframe{
-    padding-left: 16em;
+    padding-left: 15em;
     width:100%;
 /*    height:auto;
 */  position: absolute;

@@ -11,14 +11,16 @@ $(document).ready(function() {
 			$(this).addClass('current_page_item');						
 		});
 	}
-	// var nav=$("#nav"); //得到导航对象
-	// var win=$(window); //得到窗口对象
-	// var sc=$(document);//得到document文档对象。
-	// win.scroll(function(){
-	// 	if(sc.scrollTop()>=800){
-	// 		nav.addClass("fixnav"); 
-	// 	}else{
-	// 	nav.removeClass("fixnav");
-	// 	}
+	// $(".home").click(function(event) {
+	// 	iframe.height("1200");
+	// });
+	// $(".article").click(function(event) {
+	// 	iframe.height("1500");
+	// });
+	// $(".aboutUs").click(function(event) {
+	// 	iframe.height("1500");
+	// });
+	// $(".new").click(function(event) {
+	// 	iframe.height("100%");
 	// });
 });
